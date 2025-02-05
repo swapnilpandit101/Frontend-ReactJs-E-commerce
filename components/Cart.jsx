@@ -25,7 +25,7 @@ const Cart = ({ cart, setCart }) => {
           {cart.map((product, index) => (
             <div key={index} className="card mb-3">
               <div className="row g-0 align-items-center">
-                {/* Responsive Image with Adjustable Height */}
+                
                 <div className="col-12 col-md-4 d-flex justify-content-center">
                   <img
                     src={product.image}
@@ -39,7 +39,7 @@ const Cart = ({ cart, setCart }) => {
                   />
                 </div>
 
-                {/* Product Details - Always Visible */}
+                
                 <div className="col-12 col-md-8">
                   <div className="card-body text-center text-md-start">
                     <h5 className="card-title">{product.title}</h5>
